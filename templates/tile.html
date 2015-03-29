@@ -1,0 +1,7 @@
+<div class="flip-container"
+     ng-class="{'face-up': tile.faceUp, matched: tile.matched}">
+        <div class="flipper">
+        <div class="front"></div>
+        <div class="back" ng-style="{'background-image':'url({{ tile.src }})'}"></div>
+    </div>
+</div>
